@@ -1,4 +1,4 @@
-# OWA_MAIL_SEND
+# OWA MAIL SEND example python
 owa mail send with selenium with attachment
 
 pip install selenium <br>

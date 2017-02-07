@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: cp1250  -*-
-__author__ = 'Fekete Andr·s Demeter'
+__author__ = 'Fekete Andr√°s Demeter'
 
 
 from selenium import webdriver
@@ -16,7 +16,7 @@ class mail_:
             dcap["phantomjs.page.settings.userAgent"] = ('Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36')
             mydriver = webdriver.PhantomJS(desired_capabilities=dcap,service_args=['--ssl-protocol=any','--ignore-ssl-errors=true'])
             mydriver.set_window_size(1024, 1500) #
-            baseurl = "https://host/owa/?ae=Item&t=IPM.Note&a=New"
+            baseurl = "https:// -- your host -- /owa/?ae=Item&t=IPM.Note&a=New"
             xpaths = { 'usernameTxtBox' : ".//*[@id='username']",
                    'passwordTxtBox' : ".//*[@id='password']",
                    'submitButton' : ".//*[@id='tblMid']/tbody/tr[7]/td/table/tbody/tr[3]/td/input[1]",

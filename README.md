@@ -1,5 +1,5 @@
 # OWA MAIL SEND example python
-owa mail send with attachment, with selenium lib
+OWA 2007 , mail send with attachment, with selenium lib
 
 pip install selenium <br>
 

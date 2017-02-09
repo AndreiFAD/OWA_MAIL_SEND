@@ -57,14 +57,16 @@ class mail_:
             mydriver.find_element_by_xpath(xpaths['TxtBoxsend']).click()
             mydriver.quit()
 
-username = 'domain\\username'
-password = ''
-to_txt = ''
-cc_txt = ''
-bcc_txt = ''
-sbj_txt = ''
-body_txt = ''
-attach = 'fullpath!'
+if __name__ == "__main__":
+
+    username = 'domain\\username'
+    password = ''
+    to_txt = ''
+    cc_txt = ''
+    bcc_txt = ''
+    sbj_txt = ''
+    body_txt = ''
+    attach = 'fullpath!'
 
 send = mail_
 send.email(username,password,to_txt,cc_txt,bcc_txt,sbj_txt,body_txt,attach)
